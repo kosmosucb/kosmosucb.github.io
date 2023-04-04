@@ -1,0 +1,603 @@
+/* Body style */
+body {
+    background: #3c1642;
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+}
+
+#banner {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    border: none;
+}
+
+#head2 {
+    height: 12vh;
+}
+
+.logo-img {
+    width: 400px;
+    height: 400px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-img:hover {
+  width: 420px;
+  height: 420px;
+  transition: 0.2s;
+}
+
+.tron {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.3;
+    z-index: -5;
+    background-image: linear-gradient(to bottom, rgba(54, 5, 88, 0.548), #ffffff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.tron {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 570px;
+}
+
+#menuButton {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#menuButton img {
+    width: 25px;
+    margin-top: px;
+}
+
+.social-media-logo {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.social-media-logo[src="images/icon-yt.png"] {
+    width: 50px;
+    /* 10% larger than the original width of 40px */
+    height: 50px;
+    margin-top: -4px;
+}
+.social-media-logo:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
+/* Navigation menu */
+#sideNav {
+    width: 110%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    left: -.5px;
+    background: rgb(24, 2, 34);
+    text-align: top;
+    transition: 0.3s;
+}
+
+#sideNav ul li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #b19cd9;
+    /* light pastel purple */
+}
+
+#sideNav ul li .current {
+    text-decoration: underline;
+    font-weight: bold;
+    color: hwb(0 51% 0%);
+    /* light pastel purple */
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    color: #9e2424;
+    margin: 10px 60px 50px -20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner-img {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    top: -40px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.banner-img:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+/* Header style */
+header {
+    background-color: #3c1642;
+    text-align: center;
+}
+
+/* Main section styles */
+
+h1, h2, h3, h4{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Manrope', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Body styles */
+
+#board-members ul {
+    list-style: none;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#board-members li {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#board-members img {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    object-fit: cover;
+}
+
+/* Footer styles */
+footer {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 7vh;
+    bottom: 0;
+    z-index: 10;
+    /* background: rgba(10, 10, 10, -40px); */
+    color: #fff;
+    left: 0;
+    right: 0;
+}
+
+
+#ocf-logo {
+    margin-right: 1em;
+    margin-left: 20px;
+}
+
+#footer-social-medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#kosmos-copyright {
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+    transform: translateY(50%);
+    text-align: right;
+    margin-right: 20px;
+}
+
+footer #extra-footer-text {
+  display: flexbox;
+  margin-left: 10px;
+  font-size: 8px;    
+  max-width: 100%;
+  padding-right: 220px;
+  max-height: 20px;
+}
+
+/* Covers */
+.cover {
+    padding-top: 50px;
+    margin-top: -10px;
+}
+
+#coverNav {
+    /* position: fixed; */
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.3);
+    left: -30   px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+#coverNav>* {
+    margin-bottom: 20px;
+}
+
+#coverNav ul a {
+    color: #ffF;
+}
+
+#coverNav ul h1{
+    text-align: left;
+}
+
+
+#coverDescriptors {
+    margin-left: 400px;
+}
+
+#coverDescriptors h1 {
+    text-align: left;
+}
+
+#coverDescriptors h2 {
+    text-align: left;
+    font-size: 80%;
+    color:rgba(177, 177, 177, 0.9)
+}
+
+#coverDescriptors span.cover-key {
+
+}
+
+.cover-nav-item span.cover-key {
+    position: absolute;
+    top: -100px;
+}
+
+.cover-key {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#coverContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#video-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#description-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description-button {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.description-button:hover {
+    background-color: black;
+    color: rgb(255, 85, 255);
+}
+
+.otherbackgrounds {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.3;
+    z-index: -3;
+    background-image: linear-gradient(to bottom, rgba(54, 5, 88, 0.548), #ffffff);
+}
+
+#follow-us {
+
+}
+
+.fb {
+    position: static;
+    height: 200px;
+    width: 200px;
+    top: 0; 
+}
+
+/* Center the board column container */
+.boardcolumns {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Three columns side by side */
+.column {
+    width: 15%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    display: inline-block;
+    text-align: center;
+}
+  
+  /* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+      width: 20%;
+      display: block;
+    }
+  } 
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* background-color: #b19cd9; */
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+  }
+
+  /* board member titles */
+  .container .title {
+    color: #f563f0;
+    text-align: center;
+    position: top;
+    font-size: medium;
+    font-family: 'Manrope', sans-serif;
+    
+  }
+
+  /* board member description sentences */
+  .container p{
+    color: #ababab;
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+  }
+    
+  .semester{
+    float:left;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  .dropbtn {
+    background-color: #b82cac;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+
+/* The Modal For Old Board(background) */
+.modal {
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 100px auto;
+  margin-right: 100px auto;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    height: 70%
+  }
+  
+  /* The Close Button */
+  .close, .close2, .close3 {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus,.close2:hover,
+  .close2:focus,.close3:hover,
+  .close3:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Modal Body */
+  .modal-body {
+    padding: 2px 16px;
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    justify-content: center;
+    align-content: center;
+}
+  
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #7f0958;
+    margin: auto;
+    padding: 0 8px;
+    border: 1px solid #e40d63;
+    width: 80%;
+    height: 78%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+  }
+  
+  /* Add Animation */
+  @keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
+
+  #boardcolumns {
+    /* display: grid;
+    justify-content: center;
+    align-content: center;
+
+    gap: 4px;
+    grid-auto-flow: column; */
+    
+  }
+
+  /*Calendar */
+  iframe {
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: small;
+  }
