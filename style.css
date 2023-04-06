@@ -325,6 +325,17 @@ footer #extra-footer-text {
     justify-content: space-between;
 }
 
+.leader-description-button {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(220, 51, 195);
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(234, 37, 205);
+}
+
 .description-button {
     display: block;
     padding: 10px;
@@ -339,6 +350,11 @@ footer #extra-footer-text {
 .description-button:hover {
     background-color: black;
     color: rgb(255, 85, 255);
+}
+
+.leader-description-button:hover {
+  background-color: black;
+  color: rgb(255, 85, 255);
 }
 
 .otherbackgrounds {
