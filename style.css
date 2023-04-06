@@ -329,11 +329,12 @@ footer #extra-footer-text {
   display: block;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid rgb(220, 51, 195);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  color: rgb(234, 37, 205);
+  text-shadow: 2px 2px pink;
+  color: rgb(255, 255, 255);
 }
 
 .description-button {
@@ -345,6 +346,11 @@ footer #extra-footer-text {
     text-align: center;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-weight: bolder;
+    /* font-size: 80%; */
+    /* font-weight: medium */
+   
 }
 
 .description-button:hover {
