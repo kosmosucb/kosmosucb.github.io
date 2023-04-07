@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KOSMOS @ Cal</title>
+  <link rel="stylesheet" href="../style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Manrope:wght@500&family=PT+Sans+Caption:wght@700&display=swap"
+    rel="stylesheet">
+</head>
+
+<div id="sideNav">
+    <nav>
+      <ul>
+        <li><a href="index.html"></a> <img src="../images/logo.png" class="banner-img" alt="KOSMOS @ Cal logo"></li>
+        <li><a href="../about.html">About Us</a></li>
+        <li><a href="../covers.html">Dance Covers</a></li>
+        <li><a href="../events.html">Events</a></li>
+        <li><a href="../photos.html">Photo Gallery</a></li>
+        <li><a href="../follow.html">Follow Us</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <script>
+    var menuButton = document.getElementById("menuButton")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+    menuButton.onclick = function () {
+      if (sideNav.style.right == "-250px") {
+        sideNav.style.right = "0";
+      } else {
+        sideNav.style.right = "-250px"
+      }
+    }
+  </script>
+
+<body>
+
+    <!-- START -->
+    <h1>Alex Rodriguez</h1>
+    <p>Covers: Stereotype, Step Back</p>
+    <!-- END -->
+
+  
+  <script src="script.js"></script> 
+
+</body>
+</html> 
