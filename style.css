@@ -624,3 +624,8 @@ footer #extra-footer-text {
     text-align: center;
     font-size: small;
   }
+
+  div.scroll {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
