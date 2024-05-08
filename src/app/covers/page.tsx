@@ -40,7 +40,8 @@ export default function Page() {
                 <br/>
             </div>
 
-            <h1 className="text-2xl text-center font-semibold p-8">Spring 2024 Covers</h1>
+            <h1 className="text-2xl text-center font-semibold pt-8">Spring 2024 Covers</h1>
+            <p className="text-tiny text-center text-white/60 pb-8">Click each image for more info</p>
             <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="Jung Kook(전정국)- ‘Standing Next to You’" image="RGT685PoZJU"/>
