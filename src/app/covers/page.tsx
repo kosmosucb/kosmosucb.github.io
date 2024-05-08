@@ -22,20 +22,20 @@ export default function Page() {
                 />
                 <div className="flex flex-col">
                     Dancers:
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/kosmos/members/hoang"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
                 </div>
                 <div className="flex flex-col">
                     Filmed By:
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
                     <br/>
                     Edited By:
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
                 </div>
                 <br/>
             </div>

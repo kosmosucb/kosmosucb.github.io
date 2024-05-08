@@ -42,7 +42,7 @@ export default function TopNavbar() {
                     <NavbarBrand>
                     <Link href="/">
                     <Image
-                    src="/kosmos/logocopy.png"
+                    src="/logocopy.png"
                     alt="KOSMOS Logo"
                     width={100}
                     height={25}
