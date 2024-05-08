@@ -98,7 +98,7 @@ export default function TopNavbar() {
                         color={
                             index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
                         }
-                        className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex bg-black"
+                        className="text-xl z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex bg-black"
                         href={item.link}
                         size="lg"
                         >
