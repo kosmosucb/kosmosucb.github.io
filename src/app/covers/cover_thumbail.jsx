@@ -15,7 +15,7 @@ export default function CoverThumbnail({name, image}) {
                     radius="lg"
                     width="100%"
                     alt="standing next to you"
-                    className="w-full object-cover h-[140px]"
+                    className="lg:w-full object-cover lg:h-[140px]"
                     src={"http://img.youtube.com/vi/"+ image +"/maxresdefault.jpg"}
                     />
                 </CardBody>
@@ -38,7 +38,7 @@ export default function CoverThumbnail({name, image}) {
                 <ModalHeader className="flex flex-col gap-1 mb-3 text-md lg:text-2xl font-semibold">{name}</ModalHeader>
                 <ModalBody>
                 <div className="flex flex-col lg:flex-row items-center justify-between">
-                    <iframe  width="560" height="315" src={"https://www.youtube.com/embed/"+image} title="YouTube video player"
+                    <iframe className="lg:w-[560px] lg:h-[315px]" src={"https://www.youtube.com/embed/"+image} title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen
                     text-align="center" 
                     />
