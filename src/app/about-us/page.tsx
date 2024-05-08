@@ -60,7 +60,7 @@ export default function Page() {
             />
             <BoardIteration 
             name="Spring 2022" 
-            image="/sp22board.JPG" 
+            image="/sp22board.jpg" 
             execs={["Executive: Vivian Le", "Executive: Sean Kelly", "Vice Executive: Avery Perez", "Vice Executive: Ethan Lai"]}
             board={["Social: Kaleigh Lin", "Finance: Hannah Chen", "Social Media: Sarah Kung", "Tech Team Lead: Novia Kayvetz-Vuong", "Design: Adriel Vijuan"]}
             interns={["Executive Intern: Claire Lee", "Executive Intern: Harika Gopi", "Tech Lead Intern: William Xu"]}
@@ -88,7 +88,7 @@ export default function Page() {
             />
             <BoardIteration 
             name="Fall 2019 & Spring 2020" 
-            image="/OGboard.jpg" 
+            image="/ogboard.jpg" 
             execs={["Executive: Vivian Le", "Executive: Sean Kelly", "Executive: Janice Ji", "Executive: Yeseul Cho"]}
             board={["None"]}
             interns={["None"]}
