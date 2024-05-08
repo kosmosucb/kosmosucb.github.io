@@ -24,7 +24,7 @@ export default function BoardModal({name, image, execs, board, interns}) {
                     </CardFooter>
                 </Card>
             </div>
-            <Modal className="p-8" size="4xl" isOpen={isOpen} onOpenChange={onOpenChange}>
+            <Modal className="p-8" size="4xl" isOpen={isOpen} onOpenChange={onOpenChange} placement="top-center">
                 <ModalContent>
                 {(onClose) => (
                     <>
@@ -39,7 +39,7 @@ export default function BoardModal({name, image, execs, board, interns}) {
                                 priority
                                     />
                             </div>                      
-                            <div className="flex flex-row justify-between">
+                            <div className="flex flex-col lg:flex-row justify-between">
                                 <div>
                                   <h3 className="mb-3 text-xl font-semibold">Executives</h3>
                                   <ul className="list-none">

@@ -24,13 +24,20 @@ export default function CoverThumbnail({name, image}) {
                 </CardFooter>
             </Card>
         </div>
-        <Modal className="pb-16 pl-8 pt-4" size="5xl" isOpen={isOpen} onOpenChange={onOpenChange}>
+        <Modal 
+            className="pb-16 pl-8 pt-4" 
+            size="5xl" 
+            isOpen={isOpen} 
+            onOpenChange={onOpenChange} 
+            scrollBehavior="inside"
+            placement="top-center"
+            >
             <ModalContent>
             {(onClose) => (
                 <>
-                <ModalHeader className="flex flex-col gap-1 mb-3 text-2xl font-semibold">{name}</ModalHeader>
+                <ModalHeader className="flex flex-col gap-1 mb-3 text-lg lg:text-2xl font-semibold">{name}</ModalHeader>
                 <ModalBody>
-                <div className="flex flex-row items-center justify-between">
+                <div className="flex flex-col lg:flex-row items-center justify-between">
                     <iframe  width="560" height="315" src={"https://www.youtube.com/embed/"+image} title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen
                     text-align="center" 
