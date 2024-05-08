@@ -35,7 +35,7 @@ export default function CoverThumbnail({name, image}) {
             <ModalContent>
             {(onClose) => (
                 <>
-                <ModalHeader className="flex flex-col gap-1 mb-3 text-lg lg:text-2xl font-semibold">{name}</ModalHeader>
+                <ModalHeader className="flex flex-col gap-1 mb-3 text-md lg:text-2xl font-semibold">{name}</ModalHeader>
                 <ModalBody>
                 <div className="flex flex-col lg:flex-row items-center justify-between">
                     <iframe  width="560" height="315" src={"https://www.youtube.com/embed/"+image} title="YouTube video player"

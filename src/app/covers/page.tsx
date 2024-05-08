@@ -41,7 +41,7 @@ export default function Page() {
             </div>
 
             <h1 className="text-2xl text-center font-semibold p-8">Spring 2024 Covers</h1>
-            <div className="gap-2 grid text-center items-center lg:grid-cols-4">
+            <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="Jung Kook(전정국)- ‘Standing Next to You’" image="RGT685PoZJU"/>
                 <CoverThumbnail name="ATEEZ (에이티즈) - '미친 폼 (Crazy Form)'" image="HGQYkZBtJFI"/>
@@ -50,7 +50,7 @@ export default function Page() {
             </div>
 
             <h1 className="text-2xl text-center font-semibold p-8">Fall 2023 Covers</h1>
-            <div className="gap-2 grid lg:grid-cols-4">
+            <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="EVERGLOW (에버글로우) - ‘SLAY’" image="33HeMgKKIh0" />
                 <CoverThumbnail name="XG - ‘NEW DANCE’" image="YZ9VRrTPLvs" />
@@ -60,7 +60,7 @@ export default function Page() {
             </div>
 
             <h1 className="text-2xl text-center font-semibold p-8">Summer 2023 Covers</h1>
-            <div className="gap-2 grid lg:grid-cols-4">
+            <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="IVE (아이브) - ‘I AM’" image="BYXcRED7szU"/>
                 <CoverThumbnail name="TXT 투모로우바이투게더 - ‘Sugar Rush Ride’" image="co-_4ScFqb4" />
@@ -71,7 +71,7 @@ export default function Page() {
             </div>
 
             <h1 className="text-2xl text-center font-semibold p-8">Spring 2023 Covers</h1>
-            <div className="gap-2 grid lg:grid-cols-4">
+            <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="X1 엑스원 - ‘FLASH’" image="pIbLVT8Lwc0" />
                 <CoverThumbnail name="TWICE 트와이스 - ‘CRY FOR ME’" image="s0iXyDf9G0c" />
@@ -85,7 +85,7 @@ export default function Page() {
             </div>
 
             <h1 className="text-2xl text-center font-semibold p-8">Fall 2022 Covers</h1>
-            <div className="gap-2 grid lg:grid-cols-4">
+            <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="TWICE 트와이스 - ‘Talk That Talk’" image="Us-PHOABXuw" />
                 <CoverThumbnail name="ATEEZ 에이티즈 - ‘Guerrilla’" image="BAC4ailY8B4" />
@@ -96,7 +96,7 @@ export default function Page() {
             </div>
 
             <h1 className="text-2xl text-center font-semibold p-8">Summer 2022 Covers</h1>
-            <div className="gap-2 grid lg:grid-cols-4">
+            <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="TXT 투모로우바이투게더 - ‘Good Boy Gone Bad’" image="txrgTs76R70"/>
                 <CoverThumbnail name="IVE 아이브 - 'Love Dive'" image="-YMKQwoO6XM"/>
@@ -107,7 +107,7 @@ export default function Page() {
             </div>
 
             <h1 className="text-2xl text-center font-semibold p-8">Spring 2022 Covers</h1>
-            <div className="gap-2 grid lg:grid-cols-4">
+            <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="KEP1ER 케플러 - 'WADADA'" image="K3WOuoH9x_M"/>
                 <CoverThumbnail name="NCT 127 엔씨티 127 - ‘FAVORITE (VAMPIRE)’" image="V3P21XWFgpk"/>
@@ -124,7 +124,7 @@ export default function Page() {
             </div>
 
             <h1 className="text-2xl text-center font-semibold p-8">Fall 2021 Covers</h1>
-            <div className="gap-2 grid lg:grid-cols-4">
+            <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="STAYC 스테이씨 - ‘Stereotype’" image="0cIizStTIqA"/>
                 <CoverThumbnail name="TXT 투모로우바이투게더 - ‘0X1=LOVESONG (I Know I Love You)’" image="N4WOuLnpZ2I"/>
@@ -137,14 +137,14 @@ export default function Page() {
             </div>
 
             <h1 className="text-2xl text-center font-semibold p-8">Spring 2021 Covers</h1>
-            <div className="gap-2 grid lg:grid-cols-4">
+            <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="ITZY 있지 - NOT SHY" image="dtIiAdNodYE"/>
 
             </div>
 
             <h1 className="text-2xl text-center font-semibold p-8">Spring 2020 Covers</h1>
-            <div className="gap-2 grid lg:grid-cols-4">
+            <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="(G)I-DLE ((여자)아이들) - LION" image="F3U20C8fWC4"/>
                 <CoverThumbnail name="TXT (투마로우바이투게더) - 9와 4분의 3 승강장에서 너를 기다려 (Run Away)" image="-Dy4e2xzq58"/>
@@ -155,7 +155,7 @@ export default function Page() {
             </div>
 
             <h1 className="text-2xl text-center font-semibold p-8">Fall 2019 Covers</h1>
-            <div className="gap-2 grid lg:grid-cols-4">
+            <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="ITZY 있지 - ICY" image="tpkEjKt2XHU"/>
                 <CoverThumbnail name="BTS 방탄소년단 - FAKE LOVE" image="ra77vZLZrLw"/>
