@@ -55,7 +55,7 @@ export default function Page() {
             name="Fall 2022" 
             image="/fa22board.jpg" 
             execs={["Executive: Avery Perez", "Executive: Ethan Lai", "Vice Executive: Junkee Kim Kim", "Vice Executive: Kaleigh Lin"]}
-            board={["Social: Xin Wei Yap", "Social Chair: Vincent Baugh", "Finance: Hannah Chen", "Social Media: Sarah Kung", "Tech Team Lead: Abbie Tsai", "Design: Adriel Vijuan"]}
+            board={["Social: Xin Wei Yap", "Social: Vincent Baugh", "Finance: Hannah Chen", "Social Media: Sarah Kung", "Tech Team Lead: Abbie Tsai", "Design: Adriel Vijuan"]}
             interns={["Executive Intern: Nicole Cheng", "Finance Intern: Angela Gao", "Tech Lead Intern: Yiwei Yu", "Communications Intern: Julia Pan", "Social Media Intern: Annie Li"]}
             />
             <BoardIteration 
