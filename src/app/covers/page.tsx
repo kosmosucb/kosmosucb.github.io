@@ -16,7 +16,7 @@ export default function Page() {
             <h1 className="text-2xl text-center font-semibold">Latest Cover</h1>
             <br/>
             <div className="mb-32 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left flex lg:flex-row flex-col items-center justify-between">
-                <iframe className="lg:w-[560px] lg:h-[315px]" src="https://www.youtube.com/embed/Hny49-zSYCE" title="YouTube video player"
+                <iframe className="lg:w-[560px] lg:h-[315px]" src="https://www.youtube.com/embed/gGz4Y0zGv3w" title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen
                 text-align="center" 
                 />
@@ -59,6 +59,7 @@ export default function Page() {
                 <CoverThumbnail name="ITZY 있지 - ‘CAKE’" image="eEdK4yVdhKs" />
                 <CoverThumbnail name="RIIZE (라이즈) - 'Get A Guitar'" image="AVWUVmc2fAw" />
                 <CoverThumbnail name="NCT DREAM (엔시티 드림) - 'ISTJ'" image="Hny49-zSYCE" />
+                <CoverThumbnail name="NCT DREAM (엔시티 드림) - 'ISTJ'" image="gGz4Y0zGv3w" />
 
             </div>
 

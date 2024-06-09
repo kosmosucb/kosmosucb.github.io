@@ -26,8 +26,8 @@ export default function TopNavbar() {
             link: "/photos"
         },
         {
-            name: "Follow Us",
-            link: "/follow-us"
+            name: "Performances",
+            link: "/performances"
         },
     ];
     
@@ -74,8 +74,8 @@ export default function TopNavbar() {
                     </Link>
                     </NavbarItem>
                     <NavbarItem>
-                    <Link color="foreground" href="/follow-us">
-                        Follow Us
+                    <Link color="foreground" href="/performances">
+                        Performances
                     </Link>
                     </NavbarItem>
                 </NavbarContent>
