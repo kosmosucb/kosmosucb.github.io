@@ -20,6 +20,8 @@ export default function Home() {
         width={240}
         height={240}
         />
+        <br/>
+        <>Covers: Guerilla, DM, Panorama, Tempo, Bouncy, ISTJ, The Boys, Navarilla</>
       </div>
     </main>
   );

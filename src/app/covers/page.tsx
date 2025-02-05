@@ -59,7 +59,8 @@ export default function Page() {
                 <CoverThumbnail name="ITZY 있지 - ‘CAKE’" image="eEdK4yVdhKs" />
                 <CoverThumbnail name="RIIZE (라이즈) - 'Get A Guitar'" image="AVWUVmc2fAw" />
                 <CoverThumbnail name="NCT DREAM (엔시티 드림) - 'ISTJ'" image="Hny49-zSYCE" />
-                <CoverThumbnail name="NCT DREAM (엔시티 드림) - 'ISTJ'" image="gGz4Y0zGv3w" />
+                <CoverThumbnail name="ZEROBASEONE (제로베이스원) - 'In Bloom'" image="gGz4Y0zGv3w" />
+                <CoverThumbnail name="Jung Kook (전정국) - ‘3D’'" image="YgNJPjBoPJQ" />
 
             </div>
 
@@ -92,6 +93,7 @@ export default function Page() {
             <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="TWICE 트와이스 - ‘Talk That Talk’" image="Us-PHOABXuw" />
+                <CoverThumbnail name="Kep1er (케플러) ‘Up!’ " image="o05-6E3Aqg8" />
                 <CoverThumbnail name="ATEEZ 에이티즈 - ‘Guerrilla’" image="BAC4ailY8B4" />
                 <CoverThumbnail name="Wanna One 워너원 - 'Energetic'" image="EP1qrMg_mJo" />
                 <CoverThumbnail name="NMIXX (엔믹스) - ‘DICE’" image="tGtdaRUW3zc"/>

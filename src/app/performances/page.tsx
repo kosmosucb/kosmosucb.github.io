@@ -20,22 +20,13 @@ export default function Page() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen
                 text-align="center" 
                 />
-                <div className="flex flex-col">
-                    Dancers:
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
-                </div>
-                <div className="flex flex-col">
-                    Filmed By:
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
-                    <br/>
-                    Edited By:
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
+                <div className="flex flex-col list-none">
+                    <li>Setlist: </li>
+                    <li>SNSD - The Boys</li>
+                    <li>IZ*ONE - La Vie en Rose</li>
+                    <li>NCT U - Make a Wish (Birthday Song)</li>
+                    <li>ATEEZ - Crazy Form</li>
+                    <li>BTS - ON</li>
                 </div>
                 <br/>
             </div>
