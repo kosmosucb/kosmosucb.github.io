@@ -47,6 +47,11 @@ export default function Page() {
                 <CoverThumbnail name="Jung Kook(전정국)- ‘Standing Next to You’" image="RGT685PoZJU"/>
                 <CoverThumbnail name="ATEEZ (에이티즈) - '미친 폼 (Crazy Form)'" image="HGQYkZBtJFI"/>
                 <CoverThumbnail name="LE SSERAFIM (르세라핌) - ‘EASY’" image="ZyB7ee00GBQ"/>
+                <CoverThumbnail name="IVE (아이브) - ‘Baddie’" image="nndC5z9-dmg"/>
+                <CoverThumbnail name="IZ*ONE (아이즈원) - '라비앙로즈 (La Vie en Rose)'" image="Wy-EVJGUPmY"/>
+                <CoverThumbnail name="Girls' Generation (소녀시대) 'The Boys'" image="I32tWZAXkIc"/>
+                <CoverThumbnail name="TWICE(트와이스) 'I CAN'T STOP ME'" image="pA1M-MqtSmA"/>
+
 
             </div>
 
@@ -61,6 +66,7 @@ export default function Page() {
                 <CoverThumbnail name="NCT DREAM (엔시티 드림) - 'ISTJ'" image="Hny49-zSYCE" />
                 <CoverThumbnail name="ZEROBASEONE (제로베이스원) - 'In Bloom'" image="gGz4Y0zGv3w" />
                 <CoverThumbnail name="Jung Kook (전정국) - ‘3D’'" image="YgNJPjBoPJQ" />
+                <CoverThumbnail name="RIIZE (라이즈) - 'Memories'" image="hSd9pXb9IjQ" />
 
             </div>
 
@@ -72,6 +78,8 @@ export default function Page() {
                 <CoverThumbnail name="ENHYPEN 엔하이픈 - ‘Sacrifice (Eat Me Up)’" image="8ChQaQjlSPU" />
                 <CoverThumbnail name="ATEEZ 에이티즈 - ‘Bouncy (K-Hot Chilli Peppers)’" image="lIFoybx-zOc" />
                 <CoverThumbnail name="NewJeans 뉴진스 - 'Cool With You'" image="aq8emNqPvIY" />
+                <CoverThumbnail name="XG - ‘SHOOTING STAR’" image="azlBm2UNTWI" />
+                <CoverThumbnail name="(G)-IDLE (여자아이들) - ‘Queencard (퀸카)’" image="eAJRMRqyCY0" />
 
             </div>
 
@@ -95,9 +103,11 @@ export default function Page() {
                 <CoverThumbnail name="TWICE 트와이스 - ‘Talk That Talk’" image="Us-PHOABXuw" />
                 <CoverThumbnail name="Kep1er (케플러) ‘Up!’ " image="o05-6E3Aqg8" />
                 <CoverThumbnail name="ATEEZ 에이티즈 - ‘Guerrilla’" image="BAC4ailY8B4" />
+                <CoverThumbnail name="THE BOYZ (더보이즈) - ‘REVEAL’" image="7ZUw_tTcBzQ" />
                 <CoverThumbnail name="Wanna One 워너원 - 'Energetic'" image="EP1qrMg_mJo" />
                 <CoverThumbnail name="NMIXX (엔믹스) - ‘DICE’" image="tGtdaRUW3zc"/>
                 <CoverThumbnail name="fromis_9 프로미스나인 - ‘DM’" image="IvFxCahQ6Uw" />
+                <CoverThumbnail name="IVE (아이브) 'After LIKE'" image="U7DNiAebOxM" />
 
             </div>
 
