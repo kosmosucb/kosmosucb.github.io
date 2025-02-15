@@ -16,7 +16,7 @@ export default function Home() {
           height={100}
           priority
         />
-        <p className="text-sm text-white">Est. 2019</p>
+        {/* <p className="text-sm text-white">EST. 2019</p> */}
       </div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
@@ -32,7 +32,7 @@ export default function Home() {
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn more about our team.
+            Learn more about our team's history and structure!
           </p>
         </Link>
 
@@ -48,7 +48,7 @@ export default function Home() {
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Watch our latest dance covers!
+            Watch our latest Solstice and Crescent dance covers!
           </p>
         </a>
 
@@ -58,13 +58,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Members{" "}
+            SP'25 Board{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Meet our members!
+            Meet our board members!
           </p>
         </a>
 
