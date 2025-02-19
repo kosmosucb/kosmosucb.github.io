@@ -69,20 +69,51 @@ export default function TopNavbar() {
 
                 {/* Social Media Links */}
                 <NavbarContent justify="end">
-                    <NavbarItem className="hidden lg:flex">
-                        <Link href="https://www.instagram.com/kosmoskpop/" target="_blank" className="hover:text-purple-500 hover:scale-105 transition-transform duration-200">
-                            IG
-                        </Link>
+                <NavbarItem className="hidden lg:flex">
+                    <Link
+                        href="https://www.youtube.com/@KOSMOSUCB"
+                        target="_blank"
+                        className="hover:scale-105 transition-transform duration-200"
+                        >
+                        <Image
+                            src="/youtube.png"
+                            alt="YouTube"
+                            width={28}
+                            height={28}
+                            className="hover:scale-105 transition-transform duration-200 filter invert"
+                        />
+                    </Link>
                     </NavbarItem>
                     <NavbarItem className="hidden lg:flex">
-                        <Link href="https://www.youtube.com/@KOSMOSUCB" target="_blank" className="hover:text-purple-500 hover:scale-105 transition-transform duration-200">
-                            YT
-                        </Link>
+                    <Link
+                        href="https://www.instagram.com/kosmoskpop"
+                        target="_blank"
+                        className="hover:scale-105 transition-transform duration-200"
+                        >
+                        <Image
+                            src="/instagram.png"
+                            alt="Instagram"
+                            width={24}
+                            height={24}
+                            className="hover:scale-105 transition-transform duration-200 filter invert"
+                        />
+                    </Link>
                     </NavbarItem>
+                    
                     <NavbarItem className="hidden lg:flex">
-                        <Link href="https://www.tiktok.com/@kosmosxucb" target="_blank" className="hover:text-purple-500 hover:scale-105 transition-transform duration-200">
-                            TT
-                        </Link>
+                    <Link
+                        href="https://www.tiktok.com/@kosmosxucb"
+                        target="_blank"
+                        className="hover:scale-105 transition-transform duration-200"
+                        >
+                        <Image
+                            src="/tiktok.svg"
+                            alt="TikTok"
+                            width={20}
+                            height={20}
+                            className="hover:scale-105 transition-transform duration-200 filter invert"
+                        />
+                    </Link>
                     </NavbarItem>
                 </NavbarContent>
 
