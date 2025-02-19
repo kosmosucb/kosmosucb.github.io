@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8">
       <div className="fadeIn w-full flex justify-center items-center" style={{ animationDelay: "300ms" }}>
-        <TopNavbar />
+        <TopNavbar socialOnly={true}/>
       </div>
 
       <div className="flex flex-col place-items-center relative mt-8">
