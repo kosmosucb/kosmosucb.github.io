@@ -15,15 +15,17 @@ export default function Page() {
             
             <h1 className="text-2xl text-center font-semibold">Latest Cover</h1>
             <br/>
-            <div className="mb-32 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left flex lg:flex-row flex-col items-center justify-between">
-                <iframe className="lg:w-[560px] lg:h-[315px]" src="https://www.youtube.com/embed/gGz4Y0zGv3w" title="YouTube video player"
+            <div className="mb-32 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left flex lg:flex-row flex-col items-center justify-center">
+                {/* <div className="mb-32 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left flex lg:flex-row flex-col items-center justify-between"> */}
+                <iframe className="lg:w-[560px] lg:h-[315px]" src="https://www.youtube.com/embed/OyRtxqwiYqg" title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen
                 text-align="center" 
                 />
-                <div className="flex flex-col">
+                {/* temporary comment out below: dancers + filmers + editor info */}
+                {/* <div className="flex flex-col">
                     Dancers:
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Member 1" handle="@..." link="https://www.instagram.com/kosmoskpop" pic="/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Member 1" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
                     <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
                     <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
                     <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
@@ -36,12 +38,23 @@ export default function Page() {
                     <br/>
                     Edited By:
                     <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/Hoang.jpg" page="/members/hoang"/>
-                </div>
+                </div> */}
                 <br/>
             </div>
 
-            <h1 className="text-2xl text-center font-semibold pt-8">Spring 2024 Covers</h1>
-            <p className="text-tiny text-center text-white/60 pb-8">Click each image for more info</p>
+            {/* <h1 className="text-2xl text-center font-semibold pt-8">Spring 2025</h1>
+
+            <div className="gap-2 grid place-items-center lg:grid-cols-4">
+            </div>
+
+            <h1 className="text-2xl text-center font-semibold pt-8">Fall 2024</h1>
+            <p className="text-tiny text-center text-white/60 pb-8">Under construction...</p>
+            <div className="gap-2 grid place-items-center lg:grid-cols-4"> 
+
+
+            </div>*/}
+            <h1 className="text-2xl text-center font-semibold p-8">Spring 2024</h1>
+            {/* <p className="text-tiny text-center text-white/60 pb-8">Under construction...</p> */}
             <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="Jung Kook(전정국)- ‘Standing Next to You’" image="RGT685PoZJU"/>
@@ -54,8 +67,8 @@ export default function Page() {
 
 
             </div>
-
-            <h1 className="text-2xl text-center font-semibold p-8">Fall 2023 Covers</h1>
+            
+            <h1 className="text-2xl text-center font-semibold p-8">Fall 2023</h1>
             <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="EVERGLOW (에버글로우) - ‘SLAY’" image="33HeMgKKIh0" />
@@ -70,7 +83,7 @@ export default function Page() {
 
             </div>
 
-            <h1 className="text-2xl text-center font-semibold p-8">Summer 2023 Covers</h1>
+            <h1 className="text-2xl text-center font-semibold p-8">Summer 2023</h1>
             <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="IVE (아이브) - ‘I AM’" image="BYXcRED7szU"/>
@@ -83,7 +96,7 @@ export default function Page() {
 
             </div>
 
-            <h1 className="text-2xl text-center font-semibold p-8">Spring 2023 Covers</h1>
+            <h1 className="text-2xl text-center font-semibold p-8">Spring 2023</h1>
             <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="X1 엑스원 - ‘FLASH’" image="pIbLVT8Lwc0" />
@@ -97,7 +110,7 @@ export default function Page() {
 
             </div>
 
-            <h1 className="text-2xl text-center font-semibold p-8">Fall 2022 Covers</h1>
+            <h1 className="text-2xl text-center font-semibold p-8">Fall 2022</h1>
             <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="TWICE 트와이스 - ‘Talk That Talk’" image="Us-PHOABXuw" />
@@ -111,7 +124,7 @@ export default function Page() {
 
             </div>
 
-            <h1 className="text-2xl text-center font-semibold p-8">Summer 2022 Covers</h1>
+            <h1 className="text-2xl text-center font-semibold p-8">Summer 2022</h1>
             <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="TXT 투모로우바이투게더 - ‘Good Boy Gone Bad’" image="txrgTs76R70"/>
@@ -122,7 +135,7 @@ export default function Page() {
 
             </div>
 
-            <h1 className="text-2xl text-center font-semibold p-8">Spring 2022 Covers</h1>
+            <h1 className="text-2xl text-center font-semibold p-8">Spring 2022</h1>
             <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="KEP1ER 케플러 - 'WADADA'" image="K3WOuoH9x_M"/>
@@ -139,7 +152,7 @@ export default function Page() {
 
             </div>
 
-            <h1 className="text-2xl text-center font-semibold p-8">Fall 2021 Covers</h1>
+            <h1 className="text-2xl text-center font-semibold p-8">Fall 2021</h1>
             <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="STAYC 스테이씨 - ‘Stereotype’" image="0cIizStTIqA"/>
@@ -152,14 +165,14 @@ export default function Page() {
 
             </div>
 
-            <h1 className="text-2xl text-center font-semibold p-8">Spring 2021 Covers</h1>
+            <h1 className="text-2xl text-center font-semibold p-8">Spring 2021</h1>
             <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="ITZY 있지 - NOT SHY" image="dtIiAdNodYE"/>
 
             </div>
 
-            <h1 className="text-2xl text-center font-semibold p-8">Spring 2020 Covers</h1>
+            <h1 className="text-2xl text-center font-semibold p-8">Spring 2020</h1>
             <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="(G)I-DLE ((여자)아이들) - LION" image="F3U20C8fWC4"/>
@@ -170,7 +183,7 @@ export default function Page() {
 
             </div>
 
-            <h1 className="text-2xl text-center font-semibold p-8">Fall 2019 Covers</h1>
+            <h1 className="text-2xl text-center font-semibold p-8">Fall 2019</h1>
             <div className="gap-2 grid place-items-center lg:grid-cols-4">
 
                 <CoverThumbnail name="ITZY 있지 - ICY" image="tpkEjKt2XHU"/>
