@@ -16,17 +16,19 @@ export default function Page() {
             <h1 className="text-2xl text-center font-semibold">Latest Performance</h1>
             <br/>
             <div className="mb-32 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left flex lg:flex-row flex-col items-center justify-between">
-                <iframe className="lg:w-[560px] lg:h-[315px]" src="https://www.youtube.com/embed/ClwjnN1KMys" title="YouTube video player"
+                <iframe className="lg:w-[560px] lg:h-[315px]" src="https://www.youtube.com/embed/OM9IKHnWym0" title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen
                 text-align="center" 
                 />
                 <div className="flex flex-col list-none">
-                    <li>Setlist: </li>
-                    <li>SNSD - The Boys</li>
-                    <li>IZ*ONE - La Vie en Rose</li>
-                    <li>NCT U - Make a Wish (Birthday Song)</li>
-                    <li>ATEEZ - Crazy Form</li>
-                    <li>BTS - ON</li>
+                    <p className="font-bold text-xl">Set List:</p>
+                    <li>fromis_9 - Supersonic</li>
+                    <li>CL - Tie a Cherry</li>
+                    <li>EXO - Cream Soda</li>
+                    <li>Kai - Peaches</li>
+                    <br></br>
+                    <p className="font-bold text-xl">Closer:</p>
+                    <li>Baekhyun - Candy</li>
                 </div>
                 <br/>
             </div>
