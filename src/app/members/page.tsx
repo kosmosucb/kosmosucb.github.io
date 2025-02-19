@@ -28,7 +28,7 @@ export default function Home() {
       <h1 className="text-2xl text-center font-semibold p-8">TECH TEAM</h1>
       <div className="mb-32 text-center grid lg:grid-cols-4 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left">
         <BoardMember name="Anna" position="Tech Team Lead" image="/members/temporary.jpeg" />
-        <BoardMember name="Chien-Hao" position="Tech Team Lead" image="/members/chien-Hao.jpg" />
+        <BoardMember name="Chien-Hao" position="Tech Team Lead" image="/members/chien-hao.jpg" />
         <BoardMember name="Jared" position="Tech Team Intern" image="/members/jared.jpg" />
         <BoardMember name="Vianna" position="Tech Team Intern" image="/members/vianna.jpg" />
         <BoardMember name="Yuki" position="Tech Team Intern" image="/members/temporary.jpeg" />
