@@ -16,11 +16,11 @@ export default function Page() {
             </p> 
             <br/>
             <br/>
-            <h1 className="text-2xl text-left font-semibold">History of KOSMOS @ Cal</h1>
+            <h1 className="text-2xl text-left font-semibold">Founding History</h1>
             <br/>
             <p className="text-left font-light">
-            KOSMOS was founded in the Fall of 2019 by UC Berkeley students <span className="text-yellow-300"> Sean Kelly, Vivian Le, Janice Wenyao Ji, and Yeseul Cho</span>. After creating a cover of 
-            <a href="https://www.instagram.com/kosmos_at_cal" className="text-blue-500"> Twice's "Fancy" </a> with a group of friends, they went on to produce more K-Pop covers from artists like BTS, Itzy, TXT, and Blackpink while recruiting even more friends 
+            KOSMOS was founded in the Fall of 2019 by UC Berkeley students <span className="text-purple-500 font-bold"> Sean Kelly, Vivian Le, Janice Wenyao Ji, and Yeseul Cho</span>. After creating a cover of 
+            Twice's "Fancy" with a group of friends, they went on to produce more K-Pop covers from artists like BTS, Itzy, TXT, and Blackpink while recruiting even more friends 
             and classmates. After returning to in-person activities after the COVID-19 pandemic, KOSMOS has grown massively into a full-fledged
             dance team, with 100+ members producing 10+ dance covers per semester, and performs at events like KOSMOS's self-run "Show-and-Tell" events, Cal Day, EAU Night Market, AFX Showcase, and more!
             </p>
@@ -45,36 +45,36 @@ export default function Page() {
             interns={["Executive Intern: Scott Joh", "Tech Team Intern: Chien-Hao Chen", "Tech Team Intern: Seoyun Kim", "Design Intern: Anna Wong", "Social Media Intern: Michelle Li", "Social Intern: Brendon Lin", "Finance Intern: Fiona Salisbury"]}
             />
             <BoardIteration 
-            name="Fall 2023" 
-            image="/fa23board.jpg (Gen 3)" 
+            name="Fall 2023 (Gen 3)" 
+            image="/fa23board.jpg" 
             execs={["Executive: Annie Li", "Executive: Hoang Ton", "Vice Executive: Abbie Tsai", "Vice Executive: Lianna Soriano"]}
             board={["Social: Nathan Au-Yeung", "Finance: Justine Tan", "Social Media: Shiho Manabe", "Tech Team Lead: Monica Wang", "Design: Adriel Vijuan"]}
             interns={["Executive Intern: Grace Luong", "Executive Intern: Emily Wang", "Design Intern: Keira Ho", "Social Intern: Brendon Lin", "Finance Intern: Mahsa Mir"]}
             />
             <BoardIteration 
-            name="Spring 2023" 
-            image="/sp23board.jpg (Gen 2.5)" 
+            name="Spring 2023 (Gen 2.5)" 
+            image="/sp23board.jpg" 
             execs={["Executive: Avery Perez", "Executive: Ethan Lai", "Vice Executive: Annie Li", "Vice Executive: Kaleigh Lin"]}
             board={["Social: Vincent Baugh", "Finance: Hannah Chen", "Social Media: Junkee Kim Kim", "Tech Team Lead: Abbie Tsai", "Design: Adriel Vijuan"]}
             interns={["Executive Intern: Hoang Ton", "Finance Intern: Justine Tan", "Social Media Intern: Kyle Kuida", "Social Intern: Wei-Chi Chen"]}
             />
             <BoardIteration 
-            name="Fall 2022" 
-            image="/fa22board.jpg (Gen 2)" 
+            name="Fall 2022 (Gen 2)" 
+            image="/fa22board.jpg" 
             execs={["Executive: Avery Perez", "Executive: Ethan Lai", "Vice Executive: Junkee Kim Kim", "Vice Executive: Kaleigh Lin"]}
             board={["Social: Xin Wei Yap", "Social: Vincent Baugh", "Finance: Hannah Chen", "Social Media: Sarah Kung", "Tech Team Lead: Abbie Tsai", "Design: Adriel Vijuan"]}
             interns={["Executive Intern: Nicole Cheng", "Finance Intern: Angela Gao", "Tech Lead Intern: Yiwei Yu", "Communications Intern: Julia Pan", "Social Media Intern: Annie Li"]}
             />
             <BoardIteration 
-            name="Spring 2022" 
-            image="/sp22board.jpg (Gen 1)" 
+            name="Spring 2022 (Gen 1)" 
+            image="/sp22board.jpg" 
             execs={["Executive: Vivian Le", "Executive: Sean Kelly", "Vice Executive: Avery Perez", "Vice Executive: Ethan Lai"]}
             board={["Social: Kaleigh Lin", "Finance: Hannah Chen", "Social Media: Sarah Kung", "Tech Team Lead: Novia Kayvetz-Vuong", "Design: Adriel Vijuan"]}
             interns={["Executive Intern: Claire Lee", "Executive Intern: Harika Gopi", "Tech Lead Intern: William Xu"]}
             />
             <BoardIteration 
-            name="Fall 2021" 
-            image="/fa21board.jpg (Gen 1)" 
+            name="Fall 2021 (Gen 1)" 
+            image="/fa21board.jpg" 
             execs={["Executive: Vivian Le", "Executive: Sean Kelly", "Vice Executive: Giorgia Foresta"]}
             board={["Social: LeeAnne Brown", "Finance: Junkee Kim Kim", "Design: Sarah Kung", "Social Media: Harika Gopi", "Communications: Avery Perez", "Communications: Novia Kayvetz-Vuong"]}
             interns={["Executive Intern: Elle Yoo", "Social Media Intern: Anethia Pham", "Finance Intern: Hannah Chen"]}

@@ -7,8 +7,8 @@ import React from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "KOSMOS @ Cal",
-  description: "UC Berkeley Kpop Team",
+  title: "KOSMOS",
+  description: "UC Berkeley K-Pop Team",
 };
 
 export default function RootLayout({
