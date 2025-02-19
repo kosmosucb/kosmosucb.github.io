@@ -39,7 +39,7 @@ export default function Home() {
         <BoardMember name="Sean" position="Finance Chair" image="/members/sean.jpg" />
         <BoardMember name="Juhi" position="Finance Intern" image="/members/juhi.jpg" />
         <BoardMember name="Cindy" position="Social Chair" image="/members/cindy.jpg" />
-        <BoardMember name="Bella" position="Finance Intern" image="/members/bella.jpg" />
+        <BoardMember name="Bella" position="Social Intern" image="/members/bella.jpg" />
       </div>
       <h1 className="text-2xl text-center font-semibold p-8">CLOSER DIRECTORS</h1>
       <div className="mb-32 text-center grid lg:grid-cols-4 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left">

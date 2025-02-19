@@ -18,7 +18,7 @@ export default function TopNavbar({ socialOnly = false }) {
   const menuItems = [
     { name: "About Us", link: "/about-us" },
     { name: "Covers", link: "/covers" },
-    { name: "Members", link: "/members" },
+    { name: "Board", link: "/members" },
     { name: "Photos", link: "/photos" },
     { name: "Performances", link: "/performances" },
   ];
